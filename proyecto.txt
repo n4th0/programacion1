@@ -1,0 +1,6 @@
+
+la idea del proyecto es la siguiente: varios laberintos 
+en los que tienes que salir de ellos, se usarán las 
+vim keys (h j k l) se puede hacer a contra reloj.
+
+la idea es usar matrices para los laberintos.
