@@ -1,20 +1,17 @@
 #include <stdio.h>
 #include <stdbool.h>
-bool cuadrado(int num);
+int cuadrado(int num);
 int main(){
-   
-   if(cuadrado(6)){
-      printf("verdadero");
-   }else {
-      printf("falso");
-   }
+  int b = cuadrado(60);
+  printf("%d",b);
 
 }
-bool cuadrado(int num){
-   if(num<0){
-      return false;
-   }else {
-      return true;
+int cuadrado(int num){
+int a = 0;
+for (int i =1 ; i<=num; i++) {
+   if(num%i==0){
+      a = a+1;
    }
-
+}
+return a;
 }
