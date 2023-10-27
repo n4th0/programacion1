@@ -30,6 +30,5 @@ int calculos(int a){
          b++;
       }
    }
-
    return b;
 }
