@@ -28,6 +28,7 @@ char read1(){
 char read2(){
     char b;
     do {
+        // esto se imprime dos veces, no se el por que 
         printf("dime un caracter R o V ");
         scanf("%c",&b);
     }while (b != 'R' && b != 'V');
