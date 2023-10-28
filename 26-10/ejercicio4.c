@@ -1,4 +1,3 @@
-#include <signal.h>
 #include <stdio.h>
 char read1();
 char read2();
@@ -28,11 +27,15 @@ char read1(){
 }
 char read2(){
     char b;
-    while (b != 'R' && b != 'V'){
+    do {
         printf("dime un caracter R o V ");
         scanf("%c",&b);
-        printf("\n");
-    }
+    }while (b != 'R' && b != 'V');
+
+//    while (b != 'R' && b != 'V'){ 
+//    printf("dime un caracter R o V ");
+//        scanf("%c",&b);
+//    }
     return b;
 }
 int read3(){
