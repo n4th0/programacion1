@@ -2,10 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdbool.h>
+// colores
 #define VERDE_T        "\x1b[32m"
 #define AMARILLO_T "\x1b[33m"
 #define ROJO_T     "\x1b[31m"
 #define BLANCO_T   "\x1b[37m"
+
 int asknumber(){
       int b;
       printf("\n");
@@ -27,7 +29,6 @@ void compnum(int j1, int posicion, int num2, int num3){
       else {
             printf(ROJO_T"rojo        ");      
       }
-
 }
 
 
