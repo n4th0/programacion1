@@ -31,16 +31,27 @@ void compnum(int j1, int posicion, int num2, int num3){
       }
 }
 
+int rander() {
+      srand(time(NULL));
+      return 1+rand()%9;
+
+}
 
 int main(){
       int num1,num2,num3,j1,j2,j3;
       bool game=true;
-      srand(time(NULL));
-      num1 = 1 +rand()%9;
-      num2 = 1 +rand()%9;
-      num3 = 1 +rand()%9;
+      num1 = rander();
+      do {
+            num2 = rander();
+      
+      }while (num2==num1);
+      
+      do {
+            num3 = rander();
+      
+      }while (num3==num1 || num3 == num2);
       // para comprobar el resultado
-      ///printf("%d    %d    %d", num1,num2,num3 );
+      printf("%d    %d    %d", num1,num2,num3 );
       do {
             j1=asknumber();
             j2=asknumber();
