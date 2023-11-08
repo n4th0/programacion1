@@ -7,6 +7,7 @@ void draw(char c, char a, int b);
 int main(){
     char volumen,letra;
     int tamaño;
+    printf("\nhola");
 
     letra= read1();
     volumen= read2();

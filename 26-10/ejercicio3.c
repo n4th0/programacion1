@@ -43,9 +43,7 @@ int main(){
       num1 = rander();
       do {
             num2 = rander();
-      
       }while (num2==num1);
-      
       do {
             num3 = rander();
       
