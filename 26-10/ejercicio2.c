@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int asknumber();
+
 int calculos(int a);
 int main(){
    int b;
