@@ -25,6 +25,7 @@ float ejercicio2(float media, int cont, int *contador_final) {
     return media / cont;
   }
 }
+
 int main() {
   int b;
   float a = ejercicio2(0, 0, &b);
